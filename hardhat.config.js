@@ -10,8 +10,7 @@ require("@openzeppelin/hardhat-upgrades")
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
-const { SEPOLIA_RPC_URL, PRIVATE_KEY, COINMARKETCAP_API_KEY, ETHERSCAN_API_KEY, REPORT_GAS } =
-    process.env
+const { SEPOLIA_RPC_URL, PRIVATE_KEY, COINMARKETCAP_API_KEY, REPORT_GAS } = process.env
 
 module.exports = {
     defaultNetwork: "hardhat",
@@ -34,11 +33,6 @@ module.exports = {
             //   },
             saveDeployments: true,
             chainId: 11155111,
-        },
-    },
-    etherscan: {
-        apiKey: {
-            sepolia: ETHERSCAN_API_KEY,
         },
     },
     gasReporter: {

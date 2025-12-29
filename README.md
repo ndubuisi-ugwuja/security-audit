@@ -6,10 +6,6 @@ This repo has a few contracts with big flaws, see if you can see them, and see i
 
 *This repo has been updated for Sepolia over Goerli.*
 
-*[⌨️ (31:28:32) Lesson 18: Security & Auditing ](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=113312s)*
-
-[Full Repo](https://github.com/smartcontractkit/full-blockchain-solidity-course-js)
-
 - [Hardhat Security](#hardhat-security)
 - [What is an Audit?](#what-is-an-audit)
 - [Help your auditors!](#help-your-auditors)
