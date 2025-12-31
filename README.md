@@ -197,7 +197,7 @@ yarn toolbox
 Then, run this:
 
 ```
-echidna-test /src/contracts/test/fuzzing/VaultFuzzTest.sol --contract VaultFuzzTest --config /src/contracts/test/fuzzing/config.yaml
+echidna /src/contracts/test/fuzzing/VaultFuzzTest.sol --contract VaultFuzzTest --config /src/contracts/test/fuzzing/config.yaml
 ```
 
 To exit:
